@@ -1,6 +1,6 @@
 # <samp>bem</samp>
 
-<samp>bem</samp> provides random access memory backed by block entities.
+<samp>bem</samp> provides random access memory and allocator backed by block entities.
 
 ## Dependency graph
 
