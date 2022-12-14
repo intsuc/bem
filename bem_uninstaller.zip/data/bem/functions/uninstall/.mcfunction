@@ -12,6 +12,7 @@ scoreboard players reset #bem:
 
 data remove storage bem: pos
 data remove storage bem: node
+data remove storage bem: addr
 data remove storage bem: input
 data remove storage bem: output
 
