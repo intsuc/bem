@@ -2,5 +2,5 @@
 #
 # @internal
 
-execute store result score #bem:0 bem run data get storage bem: input.addr
-execute unless score #bem:0 bem-last_addr = #bem:0 bem run function bem:internal/move/1
+execute store result score #bem: bem-r0 run data get storage bem: input.addr
+execute unless score #bem: bem-last_addr = #bem: bem-r0 run function bem:internal/move/1
