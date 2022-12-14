@@ -1,6 +1,6 @@
-#> bem:store
+#> bem:internal/store/
 #
-# @api
+# @internal
 #
 # @input
 #   storage bem:

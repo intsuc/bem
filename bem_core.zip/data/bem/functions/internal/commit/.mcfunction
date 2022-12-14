@@ -1,6 +1,6 @@
-#> bem:commit
+#> bem:internal/commit/
 #
-# @api
+# @internal
 #
 # @input
 #   storage bem:

@@ -1,6 +1,6 @@
-#> bem:decommit
+#> bem:internal/decommit/
 #
-# @api
+# @internal
 #
 # @input
 #   storage bem:
