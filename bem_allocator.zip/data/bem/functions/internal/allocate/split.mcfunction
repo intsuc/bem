@@ -10,20 +10,22 @@
 #   score #bem: bem-r1
 #     storage bem: node.s
 
-# update left node
+# mark the current node as allocated
+  data remove storage bem: node
   execute store result storage bem: node.s int 1.0 run scoreboard players get #bem: bem-r0
-
-  execute store result score #bem: bem-head run data get storage bem: input.addr
-  scoreboard players operation #bem: bem-head += #bem: bem-r0
-  execute store result storage bem: node.n int 1.0 run scoreboard players add #bem: bem-head 1
-
   execute at fc69d33c-52bb-3ffa-a62c-f5936ef6cc0a run item modify block ~ ~ ~ container.0 bem:set_node
 
-# create right node
-  execute store result storage bem: node.s int 1.0 run scoreboard players operation #bem: bem-r1 -= #bem: bem-r0
-  data remove storage bem: node.n
+  data remove storage bem: output
+  data modify storage bem: output.addr set from storage bem: input.addr
 
-  execute store result storage bem: input.addr int 1.0 run scoreboard players get #bem: bem-head
+# create a new free node
+  scoreboard players add #bem: bem-r0 1
+
+  data remove storage bem: node
+  execute store result storage bem: node.s int 1.0 run scoreboard players operation #bem: bem-r1 -= #bem: bem-r0
+
+  execute store result score #bem: bem-head run data get storage bem: input.addr
+  execute store result storage bem: input.addr int 1.0 run scoreboard players operation #bem: bem-head += #bem: bem-r0
   function bem:internal/commit/
 
   execute at fc69d33c-52bb-3ffa-a62c-f5936ef6cc0a run item modify block ~ ~ ~ container.0 bem:set_node

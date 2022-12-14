@@ -1,7 +1,7 @@
 #> bem:internal/allocate/check
 #
 # @within
-#   bem:internal/allocate/
+#   bem:allocate
 #   bem:internal/allocate/next
 #
 # @input
