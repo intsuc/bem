@@ -4,6 +4,7 @@
 
 scoreboard objectives add bem-r0 dummy
 scoreboard objectives add bem-r1 dummy
+scoreboard objectives add bem-r2 dummy
 scoreboard objectives add bem-16 dummy
 scoreboard objectives add bem-4064 dummy
 scoreboard objectives add bem-65024 dummy

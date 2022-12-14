@@ -1,6 +1,12 @@
 #> bem:internal/move/1
 #
 # @within bem:internal/move/
+#
+# @writes
+#   score #bem: bem-addr
+#   score #bem: bem-last_addr
+#   score #bem: bem-r0
+#   score #bem: bem-r1
 
 scoreboard players operation #bem: bem-last_addr = #bem: bem-addr
 

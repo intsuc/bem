@@ -1,6 +1,11 @@
 #> bem:internal/incr/
 #
 # @internal
+#
+# @writes
+#   score #bem: bem-r0
+#   score #bem: bem-addr
+#   score #bem: bem-last_addr
 
 scoreboard players operation #bem: bem-r0 = #bem: bem-addr
 scoreboard players operation #bem: bem-r0 %= #bem: bem-4064
