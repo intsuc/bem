@@ -5,7 +5,6 @@
 scoreboard objectives add bem dummy
 scoreboard objectives add bem-16 dummy
 scoreboard objectives add bem-4064 dummy
-scoreboard objectives add bem-local dummy
 
 #declare score_holder #bem:0
 #declare score_holder #bem:1
