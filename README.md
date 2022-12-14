@@ -6,7 +6,7 @@
 
 ```mermaid
 flowchart TD
-  bem_install
-  bem_uninstall
+  bem_installer
+  bem_uninstaller
   bem_allocator
 ```

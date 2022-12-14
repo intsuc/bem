@@ -24,6 +24,6 @@ data modify storage bem: pos set value [0.0, 0.0, 0.0]
 
 execute in bem: run function bem:install/1
 
-datapack disable "file/bem_install.zip"
+datapack disable "file/bem_installer.zip"
 say Installed bem
 stop

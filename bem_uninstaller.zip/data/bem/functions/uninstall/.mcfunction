@@ -15,5 +15,5 @@ data remove storage bem: node
 data remove storage bem: input
 data remove storage bem: output
 
-datapack disable "file/bem_uninstall.zip"
+datapack disable "file/bem_uninstaller.zip"
 say Uninstalled bem
