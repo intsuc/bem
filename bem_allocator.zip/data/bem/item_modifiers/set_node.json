@@ -1,0 +1,14 @@
+{
+  "function": "copy_nbt",
+  "source": {
+    "type": "storage",
+    "source": "bem:"
+  },
+  "ops": [
+    {
+      "op": "merge",
+      "source": "node",
+      "target": "{}"
+    }
+  ]
+}
