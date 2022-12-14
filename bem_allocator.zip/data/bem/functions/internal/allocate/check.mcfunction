@@ -7,6 +7,10 @@
 # @input
 #   storage bem:
 #     input: {size: int, addr: int}
+#
+# @output
+#   storage bem:
+#     output: {addr: int}
 
 function bem:internal/move/
 execute at fc69d33c-52bb-3ffa-a62c-f5936ef6cc0a run data modify storage bem: node set from block ~ ~ ~ Items[0].tag
