@@ -9,4 +9,6 @@ flowchart TD
   bem_installer
   bem_uninstaller
   bem_allocator --> bem_array
+  bem_allocator --> bem_rc
+  bem_array --> bem_vec
 ```
