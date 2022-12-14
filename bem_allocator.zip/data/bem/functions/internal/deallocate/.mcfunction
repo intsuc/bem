@@ -1,6 +1,6 @@
-#> bem:deallocate
+#> bem:internal/deallocate/
 #
-# @api
+# @internal
 #
 # @input
 #   storage bem:

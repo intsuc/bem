@@ -8,5 +8,5 @@
 flowchart TD
   bem_installer
   bem_uninstaller
-  bem_allocator
+  bem_allocator -> bem_array
 ```

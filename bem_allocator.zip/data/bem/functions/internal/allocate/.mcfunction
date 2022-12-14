@@ -1,6 +1,6 @@
-#> bem:allocate
+#> bem:internal/allocate/
 #
-# @api
+# @internal
 #
 # @input
 #   storage bem:

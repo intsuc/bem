@@ -1,7 +1,7 @@
 #> bem:internal/deallocate/clear
 #
 # @within
-#   bem:deallocate
+#   bem:internal/deallocate/
 #   bem:internal/deallocate/clear
 #
 # @writes
