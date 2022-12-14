@@ -1,4 +1,4 @@
-#> bem:public/store
+#> bem:store
 #
 # @api
 

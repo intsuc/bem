@@ -1,4 +1,4 @@
-#> bem:public/load
+#> bem:load
 #
 # @api
 
